@@ -15,7 +15,7 @@
     align-items: center;
     padding: 0 10%;
     z-index: 5;
-    background-color: rgb(11, 11, 11, 100%);
+    background-color: #000000;
     position:sticky;
   }
   
@@ -34,7 +34,7 @@
       font-size: 25px;
 }
   span{
-      color: #cd564e;
+      color: #df0001;
   }
   
   .nav__links {
@@ -42,10 +42,8 @@
     display: flex;
   }
   
-  .nav__links a,
-  .cta,
-  .overlay__content a {
-    font-family: "Montserrat", sans-serif;
+  .nav__links a{
+    font-family: "Righteous", sans-serif;
     font-weight: 500;
     color:  #ffe2cd;
     text-decoration: none;
@@ -93,4 +91,56 @@
   background-color: #0b0b0b;
   color: #cd564e;
   border-color: #ffe2cd;
+}
+
+.path_text{
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #000000;
+  color: #ffe2cd;
+  font-family: "Righteus", sans-serif;
+}
+
+.paths{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding-bottom: 80px;
+}
+
+
+.hacker, .engineer, .forensics, .management{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+.hacker a{
+}
+.quad{
+  border: 10px solid #cd564e;
+  border-radius: 15px;
+  background-color: #ffe2cd;
+  width: 100%;
+  object-fit: cover;
+  padding: 10%;
+}
+
+.quad:hover{
+  border-color:  #ffe2cd;
+  background-color: #cd564e;
+
+}
+
+.hacker h3, .engineer h3, .forensics h3, .management h3{
+  color: #ffe2cd;
+  font-family: "Righteos", sans-serif;
+}
+
+.quote{
+  background-color: #df0001;
+}
+.quote h1{
+  padding: 10%;
+  color: #ffe2cd;
 }
